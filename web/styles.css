@@ -1,0 +1,103 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product img {
+    max-width: 100px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button i {
+    margin-right: 5px;
+  }
+  
+  .cart {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    margin-bottom: 5px;
+  }
+  
+  .cart-item button {
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    margin-left: 20px;
+  }
+  
+  .material-icons-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-size: 24px;
+  }
+
+  .plugins {
+    border: 1px solid #00fff2;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .txtt {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .txt {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 12px;
+    font-style: normal;
+  }
+  
+  .fuente {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 16;
+    font-style: normal;
+  }
+  
+  .fuente {
+    background-color: #000000;
+    color: white;
+    padding: 5px 50px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #d9ff00;
+  }

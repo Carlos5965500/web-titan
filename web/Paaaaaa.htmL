@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <h1 class="jersey-25-regular"><i class="material-icons-outlined">home</i> Bienvenido a Azure Shop</h1>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div id="cart" class="cart">
+      <h2>Carrito de Compras</h2>
+      <ul id="cartItems"></ul>
+      <button onclick="downloadCart()" class="fuente"><i class="material-icons-outlined">Local_Shipping</i>Finalizar Compra</button>
+    </div>
+    <button id="cartButton" onclick="toggleCart()"><i class="material-icons-outlined">shopping_cart</i> Carrito</button>
+    <h1>Productos Disponibles</h1>
+    <div class="products">
+      <div class="product">
+        <img src="product1.jpg" alt="Product 1">
+        <p>Lobby - $10</p>
+        <button onclick="addToCart('Producto 1', 10)"><i class="material-icons-outlined">add_shopping_cart</i> Añadir al Carrito</button>
+      </div>
+      <hr>
+      <p>Plugins ↓</p>
+      <hr>
+      <div class="plugins">
+        <h1 class="jersey-25-regular">RealMines</h1>
+        <div class="text">
+        <div class="textt">
+        <h2 class="jersey-25-regular">Descripcion:</h2>
+        <h5>Real mines sirve para aser minas en tu servidor xd</h5>
+        <img>
+        <p class="jersey-25-regular">Precio: $Gratis (Precio original: $1dls)</p>
+        <button onclick="addToCart(`Real-Mines`, 0)"><i class="material-icons-outlined">add</i>Comprar</button>
+      </div>
+      
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
